@@ -1,0 +1,10 @@
+x=int(input('任意數'))
+y=int(input('任意數'))
+z=int(input('任意數'))
+n=[x,y,z]
+n.sort()
+print('小到大')
+print(n)
+n.sort(reverse=True)
+print('大到小')
+print(n)
